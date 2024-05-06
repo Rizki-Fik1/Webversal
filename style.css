@@ -1,0 +1,109 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    background-color: rgb(6, 6, 25);
+}
+
+.logo {
+    width: 120px;
+    margin-left: 28px;
+}
+
+.info2:hover {
+    opacity: 0.8;
+    transition: 0.15s;
+}
+
+.info3:hover {
+    opacity: 0.8;
+    transition: 0.15s;
+}
+
+.info4 {
+    opacity: 0.8;
+    transition: 0.15s;
+}
+
+.info5:hover {
+    opacity: 0.8;
+    transition: 0.15s;
+}
+
+.icon {
+    font-size: 30px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.konten {
+    background-image: linear-gradient(45deg, #003e80, #02162c);
+}
+
+.isi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    padding: 20px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.text1 {
+   font-family: "inter", sans-serif;
+   font-weight: bold;
+   font-size: 80px;
+   color: white;
+}  
+
+.text2 {
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #607FD1;
+}
+
+.text3 {
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+}
+
+.text4 {
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.tombol {
+    background-color: #607FD1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.tombol:hover {
+    opacity: 0.7;
+}
